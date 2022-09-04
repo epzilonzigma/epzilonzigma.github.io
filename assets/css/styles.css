@@ -31,6 +31,10 @@ body {
     font-size: 18px;
 }
 
+.debug {
+    border: solid 4px red;
+}
+
 /* sizing of divs */
 
 .full-width {
@@ -39,6 +43,10 @@ body {
 
 .h-600px {
     height: 600px;
+}
+
+.h-500px {
+    height: 500px;
 }
 
 .h-1000px {
@@ -59,13 +67,15 @@ body {
 /* box-model margin + padding */
 
 .lr-padding-30px {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 0 30px;
 }
 
 .td-padding-5px {
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding: 5px 0;
+}
+
+.td-padding-10px {
+    padding: 10px 0;
 }
 
 /* alignments */
@@ -93,7 +103,16 @@ body {
 
 .grid-center-lg {
     display: grid;
-    grid-template-columns: 25% 50% 25%;
+    grid-template-columns: 20% 60% 20%;
+}
+
+.grid-center {
+    display: grid;
+    justify-content: center;
+}
+
+.project-grid {
+    grid-template-columns: 550px 550px;
 }
 
 /* color classes setup */
@@ -118,6 +137,10 @@ body {
     color: var(--grey);
 }
 
+.white {
+    background-color: var(--white);
+}
+
 /* fonts */
 
 .no-text-decoration {
@@ -132,12 +155,16 @@ body {
     font-style: italic;
 }
 
+.txt-center {
+    text-align: center;
+}
+
 .xlg-font {
     font-size: 6rem;
 }
 
 .lg-font {
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 .med-font {
@@ -172,3 +199,12 @@ body {
 
 /* section specific styles */
 
+/* project cards */
+
+.project-card {
+    border-radius: 15px;
+    width: 500px;
+    height: 300px;
+    margin: 10px;
+    padding: 0;
+}
