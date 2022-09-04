@@ -1,0 +1,210 @@
+/* import Roboto and Open Sans font*/
+@import url('https://fonts.googleapis.com/css?family=Roboto&family=Open+Sans&display=swap');
+
+/* import icons */
+/* @import url('https://fonts.googleapis.com/icon?family=Material+Icons'); */
+
+/* basic color palette for site */
+:root {
+    --white: #ffffff;
+    --grey: #f2f2f2;
+    --green: #32a18b;
+    --light-blue: #c8d8e4;
+    --blue: #2b6777;
+    --black: #121212;
+    --pink: #ebd6d6;
+}
+
+/* base setups */ 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+.debug {
+    border: solid 4px red;
+}
+
+/* sizing of divs */
+
+.full-width {
+    width: 100%;
+}
+
+.h-600px {
+    height: 600px;
+}
+
+.h-500px {
+    height: 500px;
+}
+
+.h-1000px {
+    height: 1000px;
+}
+
+.h-300px {
+    height: 300px;
+}
+
+/* positions */
+.fixed-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+/* box-model margin + padding */
+
+.lr-padding-30px {
+    padding: 0 30px;
+}
+
+.td-padding-5px {
+    padding: 5px 0;
+}
+
+.td-padding-10px {
+    padding: 10px 0;
+}
+
+/* alignments */
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-vertical {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-list{
+    display: flex;
+    justify-content: center;
+    margin: 0 2rem;
+}
+
+.center {
+    align-items: center;
+    text-align: center;
+}
+
+.grid-center-lg {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
+
+.grid-center {
+    display: grid;
+    justify-content: center;
+}
+
+.project-grid {
+    grid-template-columns: 550px 550px;
+}
+
+/* color classes setup */
+
+.grey {
+    background-color: var(--grey);
+    color: var(--black);
+}
+
+.blue {
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+.light-blue {
+    background-color: var(--light-blue);
+    color: var(--black);
+}
+
+.green {
+    background-color: var(--green);
+    color: var(--grey);
+}
+
+.white {
+    background-color: var(--white);
+}
+
+/* fonts */
+
+.no-text-decoration {
+    text-decoration: none;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.txt-center {
+    text-align: center;
+}
+
+.xlg-font {
+    font-size: 6rem;
+}
+
+.lg-font {
+    font-size: 3rem;
+}
+
+.med-font {
+    font-size: 2rem;
+}
+
+.std-font{
+    font-size: 1.25rem;
+}
+
+.blk-font {
+    color: var(--black);
+}
+
+.grey-font {
+    color: var(--grey);
+}
+
+/* lists */
+
+.no-dots {
+    list-style-type: none;
+    list-style: none;
+}
+
+/* animations */
+
+.highlight:hover {
+    background-color: var(--green);
+    color: var(--white);
+}
+
+/* section specific styles */
+
+/* project cards */
+
+.project-card {
+    border-radius: 15px;
+    width: 500px;
+    height: 300px;
+    margin: 10px;
+    padding: 0;
+}
