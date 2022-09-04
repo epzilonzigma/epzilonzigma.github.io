@@ -1,7 +1,7 @@
 # Profile Page
 
 ## Background
-This is my professional profile page. The page is intentionally built statically to practice HTML5 and CSS. Javascript maybe added later on to practice DOM manipulation.
+This is my [professional profile page](https://epzilonzigma.github.io/). The page is intentionally built statically to practice HTML5 and CSS.
 
 ## Dependencies
 
